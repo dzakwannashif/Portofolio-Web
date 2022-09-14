@@ -109,8 +109,8 @@ p{
     max-width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-image: url("./images/Untitled-1-Recovered.png");
-    background-size: cover;
+    background-image: url("./images/Frame-2.png");
+    background-size: contain;
     background-position: center;
     padding: 10px 20px;
 }
@@ -412,4 +412,14 @@ p{
     font-weight: 300;
     color: #F56D91;
     text-align: center;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-3 #cr{
+    color: #F56D91;
+    font-size: 12px;
 }
